@@ -4,9 +4,6 @@
 -- "Medium Frequency" (3-9 transactions/month)
 -- "Low Frequency" (≤2 transactions/month)
 
-
--- QUESTION 2
-
 WITH monthly_txns AS (
     SELECT 
         owner_id,
